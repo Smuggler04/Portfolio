@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url('https://wegotcode.com/wp-content/uploads/2017/01/code-background.png');
+}
+
+.home {
+	height: 93.2vh;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	font-size: 5rem;
+	color: gainsboro;
+	margin: 0;
+
+	align-self: center;
+}
+
+.about-me {
+	background-color: #141414;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 530px;
+}
+
+.about-me__title {
+	color: #fafafa;
+	font-size: 3rem;
+}
+.about-me__text {
+	color: #fafafa;
+	margin: 0 30px 30px;
+	max-width: 675px;
+	font-size: 2rem;
+}
+
+.services {
+	background-color: #fafafa;
+	color: #2c2c2c;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 530px;
+}
+
+.services__title {
+	font-size: 3rem;
+}

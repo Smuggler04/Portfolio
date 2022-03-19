@@ -1,0 +1,37 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+
+	color: antiquewhite;
+}
+
+.menu__list {
+	display: none;
+	justify-content: space-around;
+	gap: 30px;
+	padding-right: 10px;
+	font-size: large;
+}
+
+.header__logo {
+	font-size: 3rem;
+}
+
+.header__burger {
+	width: 40px;
+	align-self: center;
+	margin-right: 10px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+@media (min-width: 760px) {
+	.header__burger {
+		display: none;
+	}
+
+	.menu__list {
+		display: flex;
+	}
+}
