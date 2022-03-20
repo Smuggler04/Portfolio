@@ -1,4 +1,4 @@
-function header(fatherEl) {
+function addHeader(fatherEl) {
 	const headerEl = document.createElement('header');
 	headerEl.innerHTML = ` <header class="header">
     <div class="header__logo">SANTIAGO</div>

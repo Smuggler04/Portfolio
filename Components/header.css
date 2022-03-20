@@ -1,7 +1,7 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-
+	box-shadow: 0px 5px 150px black;
 	color: antiquewhite;
 }
 
@@ -11,10 +11,12 @@
 	gap: 30px;
 	padding-right: 10px;
 	font-size: large;
+	text-shadow: 0 2px 10px white;
 }
 
 .header__logo {
 	font-size: 3rem;
+	text-shadow: 0 2px 10px white;
 }
 
 .header__burger {

@@ -1,0 +1,29 @@
+.form {
+	background-color: #141414;
+	color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	padding: 40px 0;
+}
+
+.form__input {
+	display: flex;
+	flex-direction: column;
+	width: 335px;
+	margin: 15px;
+}
+
+.form__title {
+	margin: 0;
+	align-self: center;
+	padding-top: 10px;
+	font-size: 3rem;
+}
+
+.form__button {
+	width: 335px;
+	height: 30px;
+	margin: 10px 0 0;
+}
